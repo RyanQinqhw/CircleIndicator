@@ -13,6 +13,15 @@
 		399D9A461DB5B36C00DB4B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399D9A441DB5B36C00DB4B32 /* Main.storyboard */; };
 		399D9A481DB5B36C00DB4B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399D9A471DB5B36C00DB4B32 /* Assets.xcassets */; };
 		399D9A4B1DB5B36C00DB4B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399D9A491DB5B36C00DB4B32 /* LaunchScreen.storyboard */; };
+		399D9A551DB5B49300DB4B32 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A541DB5B49300DB4B32 /* CircleView.m */; };
+		399D9A581DB5B4AD00DB4B32 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A571DB5B4AD00DB4B32 /* CircleLayer.m */; };
+		399D9A5B1DB5BAFD00DB4B32 /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A5A1DB5BAFD00DB4B32 /* DemoCell.m */; };
+		399D9A5F1DB5C18E00DB4B32 /* AnimatedPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A5E1DB5C18E00DB4B32 /* AnimatedPageControl.m */; };
+		399D9A631DB5C24200DB4B32 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A621DB5C24200DB4B32 /* Line.m */; };
+		399D9A671DB5EA1E00DB4B32 /* Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A661DB5EA1E00DB4B32 /* Indicator.m */; };
+		399D9A6B1DB5EC0600DB4B32 /* GooeyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A6A1DB5EC0600DB4B32 /* GooeyCircle.m */; };
+		399D9A6F1DB5EE5E00DB4B32 /* RotateRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A6E1DB5EE5E00DB4B32 /* RotateRect.m */; };
+		399D9A731DB60FD900DB4B32 /* SpringLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D9A721DB60FD900DB4B32 /* SpringLayerAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,24 @@
 		399D9A471DB5B36C00DB4B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399D9A4A1DB5B36C00DB4B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399D9A4C1DB5B36C00DB4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399D9A531DB5B49300DB4B32 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		399D9A541DB5B49300DB4B32 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		399D9A561DB5B4AD00DB4B32 /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		399D9A571DB5B4AD00DB4B32 /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		399D9A591DB5BAFD00DB4B32 /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		399D9A5A1DB5BAFD00DB4B32 /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		399D9A5D1DB5C18E00DB4B32 /* AnimatedPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedPageControl.h; sourceTree = "<group>"; };
+		399D9A5E1DB5C18E00DB4B32 /* AnimatedPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedPageControl.m; sourceTree = "<group>"; };
+		399D9A611DB5C24200DB4B32 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		399D9A621DB5C24200DB4B32 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		399D9A651DB5EA1E00DB4B32 /* Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indicator.h; sourceTree = "<group>"; };
+		399D9A661DB5EA1E00DB4B32 /* Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indicator.m; sourceTree = "<group>"; };
+		399D9A691DB5EC0600DB4B32 /* GooeyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeyCircle.h; sourceTree = "<group>"; };
+		399D9A6A1DB5EC0600DB4B32 /* GooeyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeyCircle.m; sourceTree = "<group>"; };
+		399D9A6D1DB5EE5E00DB4B32 /* RotateRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateRect.h; sourceTree = "<group>"; };
+		399D9A6E1DB5EE5E00DB4B32 /* RotateRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateRect.m; sourceTree = "<group>"; };
+		399D9A711DB60FD900DB4B32 /* SpringLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringLayerAnimation.h; sourceTree = "<group>"; };
+		399D9A721DB60FD900DB4B32 /* SpringLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringLayerAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +89,10 @@
 				399D9A3F1DB5B36C00DB4B32 /* AppDelegate.m */,
 				399D9A411DB5B36C00DB4B32 /* ViewController.h */,
 				399D9A421DB5B36C00DB4B32 /* ViewController.m */,
+				399D9A591DB5BAFD00DB4B32 /* DemoCell.h */,
+				399D9A5A1DB5BAFD00DB4B32 /* DemoCell.m */,
+				399D9A5C1DB5C16C00DB4B32 /* AnimatePageControl */,
+				399D9A521DB5B45F00DB4B32 /* CircleView */,
 				399D9A441DB5B36C00DB4B32 /* Main.storyboard */,
 				399D9A471DB5B36C00DB4B32 /* Assets.xcassets */,
 				399D9A491DB5B36C00DB4B32 /* LaunchScreen.storyboard */,
@@ -77,6 +108,84 @@
 				399D9A3C1DB5B36C00DB4B32 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		399D9A521DB5B45F00DB4B32 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A531DB5B49300DB4B32 /* CircleView.h */,
+				399D9A541DB5B49300DB4B32 /* CircleView.m */,
+				399D9A561DB5B4AD00DB4B32 /* CircleLayer.h */,
+				399D9A571DB5B4AD00DB4B32 /* CircleLayer.m */,
+			);
+			name = CircleView;
+			sourceTree = "<group>";
+		};
+		399D9A5C1DB5C16C00DB4B32 /* AnimatePageControl */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A701DB60F9200DB4B32 /* indictorStyle */,
+				399D9A601DB5C22600DB4B32 /* Line */,
+				399D9A5D1DB5C18E00DB4B32 /* AnimatedPageControl.h */,
+				399D9A5E1DB5C18E00DB4B32 /* AnimatedPageControl.m */,
+				399D9A741DB60FDE00DB4B32 /* SpringAnimation */,
+			);
+			path = AnimatePageControl;
+			sourceTree = "<group>";
+		};
+		399D9A601DB5C22600DB4B32 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A611DB5C24200DB4B32 /* Line.h */,
+				399D9A621DB5C24200DB4B32 /* Line.m */,
+			);
+			name = Line;
+			sourceTree = "<group>";
+		};
+		399D9A641DB5E9EE00DB4B32 /* indicator */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A651DB5EA1E00DB4B32 /* Indicator.h */,
+				399D9A661DB5EA1E00DB4B32 /* Indicator.m */,
+			);
+			name = indicator;
+			sourceTree = "<group>";
+		};
+		399D9A681DB5EBEB00DB4B32 /* GooeyCircle */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A691DB5EC0600DB4B32 /* GooeyCircle.h */,
+				399D9A6A1DB5EC0600DB4B32 /* GooeyCircle.m */,
+			);
+			name = GooeyCircle;
+			sourceTree = "<group>";
+		};
+		399D9A6C1DB5EE4A00DB4B32 /* RotateRect */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A6D1DB5EE5E00DB4B32 /* RotateRect.h */,
+				399D9A6E1DB5EE5E00DB4B32 /* RotateRect.m */,
+			);
+			name = RotateRect;
+			sourceTree = "<group>";
+		};
+		399D9A701DB60F9200DB4B32 /* indictorStyle */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A6C1DB5EE4A00DB4B32 /* RotateRect */,
+				399D9A681DB5EBEB00DB4B32 /* GooeyCircle */,
+				399D9A641DB5E9EE00DB4B32 /* indicator */,
+			);
+			name = indictorStyle;
+			sourceTree = "<group>";
+		};
+		399D9A741DB60FDE00DB4B32 /* SpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				399D9A711DB60FD900DB4B32 /* SpringLayerAnimation.h */,
+				399D9A721DB60FD900DB4B32 /* SpringLayerAnimation.m */,
+			);
+			name = SpringAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +258,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399D9A551DB5B49300DB4B32 /* CircleView.m in Sources */,
+				399D9A731DB60FD900DB4B32 /* SpringLayerAnimation.m in Sources */,
+				399D9A631DB5C24200DB4B32 /* Line.m in Sources */,
+				399D9A671DB5EA1E00DB4B32 /* Indicator.m in Sources */,
+				399D9A6F1DB5EE5E00DB4B32 /* RotateRect.m in Sources */,
+				399D9A581DB5B4AD00DB4B32 /* CircleLayer.m in Sources */,
 				399D9A431DB5B36C00DB4B32 /* ViewController.m in Sources */,
 				399D9A401DB5B36C00DB4B32 /* AppDelegate.m in Sources */,
+				399D9A5B1DB5BAFD00DB4B32 /* DemoCell.m in Sources */,
+				399D9A5F1DB5C18E00DB4B32 /* AnimatedPageControl.m in Sources */,
 				399D9A3D1DB5B36C00DB4B32 /* main.m in Sources */,
+				399D9A6B1DB5EC0600DB4B32 /* GooeyCircle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +420,7 @@
 				399D9A511DB5B36C00DB4B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
